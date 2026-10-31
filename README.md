@@ -11,7 +11,7 @@ Le dépôt contient :
 - les **scripts de construction**, pour régénérer le dictionnaire depuis Apertium ;
 - un **corpus de test** prêt à ouvrir.
 
-Ce dépôt est la **version 3**. Elle corrige des erreurs que le corpus de test ne faisait pas ressortir, mais qu'a révélées un vrai corpus : les 123 articles de la Wikipédia bretonne sur le numérique, étudiés dans l'article *Le numérique vu par les Wikipédia bretonne et française : comparer deux corpus avec IRaMuTeQ* (dépôt [wiki-numerique-br-fr-iramuteq](https://github.com/Anakeyn/wiki-numerique-br-fr-iramuteq)). Les versions précédentes restent disponibles, inchangées, pour rester conformes à leurs articles : [v1](https://github.com/Anakeyn/Apertium2iramuteq-breton) et [v2](https://github.com/Anakeyn/Apertium2iramuteq-bretonV2).
+Ce dépôt est la **version 3**. Elle corrige des erreurs que le corpus de test ne faisait pas ressortir, mais qu'a révélées un vrai corpus : les 121 articles de la Wikipédia bretonne sur le numérique, étudiés dans l'article *Le numérique vu par les Wikipédia bretonne et française : comparer deux corpus avec IRaMuTeQ* (dépôt [wiki-numerique-br-fr-iramuteq](https://github.com/Anakeyn/wiki-numerique-br-fr-iramuteq)). Les versions précédentes restent disponibles, inchangées, pour rester conformes à leurs articles : [v1](https://github.com/Anakeyn/Apertium2iramuteq-breton) et [v2](https://github.com/Anakeyn/Apertium2iramuteq-bretonV2).
 
 ## Ce qui change par rapport à la v2
 
@@ -34,7 +34,7 @@ Les sources Apertium sont les mêmes. Les statistiques textuelles d'IRaMuTeQ sur
 
 S'y ajoute la locution *da skouer* (« par exemple »), qu'Apertium donne comme figée mais que la règle « préposition + nom » laissait en deux mots : *skouer* (« exemple ») était l'un des mots pleins les plus fréquents.
 
-**Effet sur le corpus Wikipédia** (123 articles) : 1 721 occurrences changent de lecture. *ober* passe de 563 à 739 occurrences, *gallout* de 346 à 480 ; *touiñ* et *ra* disparaissent, *kell* tombe de 135 à 1 ; *unaniñ* tombe de 159 à 31 (les vraies formes du verbe, comme *unanet*) et *barzh* de 127 à 12. Sur le corpus de test, l'effet est faible : 74 occurrences.
+**Effet sur le corpus Wikipédia** (121 articles) : 1 718 occurrences changent de lecture. *ober* passe de 562 à 737 occurrences, *gallout* de 346 à 480 ; *touiñ* et *ra* disparaissent, *kell* tombe de 135 à 1 ; *unaniñ* tombe de 158 à 31 (les vraies formes du verbe, comme *unanet*) et *barzh* de 127 à 12. Sur le corpus de test, l'effet est faible : 74 occurrences.
 
 Le lexique compte 260 369 formes et 13 124 lemmes ; le fichier d'expressions, 4 059 expressions. Les formes de la v2 sont toutes conservées : 321 formes soudées sont ajoutées et 15 formes changent de lecture.
 
